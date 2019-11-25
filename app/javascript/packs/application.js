@@ -6,8 +6,7 @@
 import Rails from "@rails/ujs"
 
 import 'jquery'
-import 'popper.js'
-import 'bootstrap'
+import('src/plugins') // loads async
 
 import 'css/site'
 
