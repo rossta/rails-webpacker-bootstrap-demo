@@ -1,0 +1,65 @@
+<div class="row">
+  <div class="col p-4">
+    <div class="table-responsive">
+      <table class="table w-50">
+        <tr>
+          <td>
+            Rails version
+          </td>
+          <td>
+            <%= Rails::VERSION::STRING %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ruby version
+          </td>
+          <td>
+            <%= RUBY_VERSION %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Webpacker gem version
+          </td>
+          <td>
+            <%= Webpacker::VERSION %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            @rails/webpacker npm package version
+          </td>
+          <td>
+            <%= npm_package_version("@rails/webpacker") %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bootstrap npm package version
+          </td>
+          <td>
+            <%= npm_package_version("bootstrap") %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            jQuery npm package version
+          </td>
+          <td>
+            <%= npm_package_version("jquery") %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            popper.js npm package version
+          </td>
+          <td>
+            <%= npm_package_version("popper.js") %>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p><a href="/rails/info/properties">More info</a></p>
+  </div>
+</div>

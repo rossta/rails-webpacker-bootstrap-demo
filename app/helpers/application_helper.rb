@@ -1,7 +1,7 @@
 module ApplicationHelper
 
-  def npm_webpacker_version
-    node_module_package_json("@rails/webpacker")['version']
+  def npm_package_version(name)
+    node_module_package_json(name)['version']
   end
 
   def node_module_package_json(name)

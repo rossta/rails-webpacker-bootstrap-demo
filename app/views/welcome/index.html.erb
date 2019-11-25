@@ -21,10 +21,4 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col p-4">
-    <%= simple_format Rails::Info.inspect %>
-    <p>Webpacker version <%= Webpacker::VERSION %><br/>
-       @rails/webpacker version <%= npm_webpacker_version %></p>
-  </div>
-</div>
+<%= render "info" if Rails.env.development? %>
