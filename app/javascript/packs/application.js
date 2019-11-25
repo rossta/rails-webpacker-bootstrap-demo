@@ -4,13 +4,12 @@
 // that code so it'll be compiled.
 
 import Rails from "@rails/ujs"
-import "channels"
 
 import 'jquery'
 import 'popper.js'
 import 'bootstrap'
 
-import 'css/application'
+import 'css/site'
 
 Rails.start()
 
