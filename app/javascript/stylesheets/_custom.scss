@@ -1,0 +1,20 @@
+// Import sass
+
+$body-bg: aliceblue;
+$body-color: #111;
+
+
+// Option A: Include all of Bootstrap
+// @import "~bootstrap/scss/bootstrap.scss";
+
+
+// Option B: Include parts of Bootstrap
+@import "~bootstrap/scss/functions.scss";
+@import "~bootstrap/scss/variables.scss";
+@import "~bootstrap/scss/mixins.scss";
+
+@import "~bootstrap/scss/reboot.scss";
+@import "~bootstrap/scss/type.scss";
+@import "~bootstrap/scss/images.scss";
+@import "~bootstrap/scss/code.scss";
+@import "~bootstrap/scss/grid.scss";

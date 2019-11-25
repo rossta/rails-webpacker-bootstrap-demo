@@ -1,0 +1,7 @@
+@import "./_custom.scss";
+@import "bootstrap/scss/bootstrap.scss";
+
+.row > [class^=col-] {
+  padding: .75rem;
+  background-color: #EEE;
+}
