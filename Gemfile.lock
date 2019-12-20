@@ -93,7 +93,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     puma (4.3.0)
       nio4r (~> 2.0)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -178,7 +178,6 @@ DEPENDENCIES
   rails (~> 6.0.1)
   sass-rails (>= 6)
   sqlite3
-  tzinfo-data
   web-console (>= 3.3.0)
   webpacker (~> 4.0)
 
